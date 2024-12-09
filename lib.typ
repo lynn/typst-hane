@@ -84,7 +84,7 @@
   edge-stroke: 0.1em,
   coordinates: false,
   board-color: rgb("#fff"),
-  mark-color: rgb("#f46"),
+  mark-color: rgb("#f24"),
 ) = {
   let u = scale
   let tl(x) = place(x, top + left)
