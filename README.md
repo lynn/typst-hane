@@ -4,22 +4,24 @@ A typst package for drawing go/baduk/weiqi diagrams
 <table>
   <tr>
     <td>
-      <pre>#figure(
+      <pre>#import "@preview/hane:0.1.0": board, stone
+#figure(
   board("
     . . . .
     . 1 . .
     . O X .
     . . . .
   "),
-  caption: [A _hane_.]
+  caption: [Black's #stone(black, n: 1) is a _hane_.]
 )</pre>
     </td>
     <td align=center>
-      <img height="150" alt="Typst output showing a go board diagram" src="https://github.com/user-attachments/assets/a05b791b-0d86-4f29-a31d-f185e9103339">
+      <img height="150" alt="Typst output showing a go board diagram" src="https://github.com/user-attachments/assets/89d454e0-9ed5-41e9-8437-a71a9dfe885f">
     </td>
   </tr>
   <tr>
-    <td><pre>#board("
+    <td><pre>#import "@preview/hane:0.1.0": board
+#board("
   $$Bc Support for Sensei's Library syntax.
   $$ | . .
   $$ | . X
