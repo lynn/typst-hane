@@ -16,7 +16,7 @@ A typst package for drawing go/baduk/weiqi diagrams
 )</pre>
     </td>
     <td align=center>
-      <img height="150" alt="Typst output showing a go board diagram" src="https://github.com/user-attachments/assets/89d454e0-9ed5-41e9-8437-a71a9dfe885f">
+      <img width="303" height="150" alt="Typst output showing a go board diagram" src="https://github.com/user-attachments/assets/89d454e0-9ed5-41e9-8437-a71a9dfe885f">
     </td>
   </tr>
   <tr>
@@ -33,7 +33,7 @@ A typst package for drawing go/baduk/weiqi diagrams
   $$ --------
 ", board-color: rgb("eb9"))
 </pre></td><td align=center>
-  <img height="220" alt="Typst output showing a go board diagram" src="https://github.com/user-attachments/assets/44cd016f-cc8d-428c-8e62-7c59f3efa83a">
+  <img width="444" height="238" alt="Typst output showing a go board diagram" src="https://github.com/user-attachments/assets/44cd016f-cc8d-428c-8e62-7c59f3efa83a">
 
 </td>
   </tr>
