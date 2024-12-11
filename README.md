@@ -99,3 +99,32 @@ For example:
 ![output](https://github.com/user-attachments/assets/c2129120-3ba3-4cd0-bf82-0047705e8671)
 
 </td></tr></table>
+
+## Options
+
+### `stone`
+
+| Parameter | Default | Description |
+| --- | --- | --- |
+| fill | (positional) | The color of the stone, `black` or `white`. |
+| n | `none` | The number written on the stone. |
+| mark | `none` | The type of mark on the stone, `"circle"` or `"square"` or `"triangle"` or `"cross"`. |
+| height | `1em` | Height of the stone. |
+| font | `"Inter"` | Font used for number on the stone. |
+| mark-color | `rgb("#f24")` | Color used for markings on the stone. |
+| mark-outline | `false` | Whether to outline the marking on the stone. |
+
+### `board`
+
+| Parameter | Default | Description |
+| --- | --- | --- |
+| notation | (positional) | The board notation string. |
+| caption | `none` | If present, wrap the board in a figure with this caption. |
+| scale | `1em` | The height to use for a single stone on the board. |
+| font | `"Inter"` | Font of coordinates and the numbers on the stones. |
+| placement | `none` | Placement of the figure, if `caption` is not `none`. |
+| stroke | `0.05em` | Stroke of board grid lines. |
+| edge-stroke | `0.1em` | Stroke of board grid lines at the edge of the board. |
+| coordinates | `false` | Whether to draw coordinates off the side of the grid. |
+| board-color | `rgb("#fff")` | Background color for the board. |
+| mark-color | `rgb("#f24")` | Color used for markings on the stones. |
